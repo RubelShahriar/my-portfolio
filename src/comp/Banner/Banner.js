@@ -117,7 +117,7 @@ const Banner = () => {
                         <p className='fs-4'>creative front end Developer</p>
                         <div>
                             <Button className='py-2 px-3 resume rounded-pill'>
-                                <a href='#.' style={{color: 'white'}} className='fs-6 fw-bold text-decoration-none '>Download Resume <FontAwesomeIcon className='icon d-icon ms-2 fa-twitter' style={{color: 'white'}} icon={faDownload}/></a>
+                                <a href='https://drive.google.com/uc?id=12KPn01h_ogWis6MIEQBo-WlryqPPrAxX&export=download' style={{color: 'white'}} className='fs-6 fw-bold text-decoration-none '>Download Resume <FontAwesomeIcon className='icon d-icon ms-2 fa-twitter' style={{color: 'white'}} icon={faDownload}/></a>
                             </Button>
                         </div>
                         <div className='ani'>

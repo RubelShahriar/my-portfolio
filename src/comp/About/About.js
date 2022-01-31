@@ -23,7 +23,7 @@ const About = () => {
                         <p><span className='fw-bold' >Email: </span>mr.miarubel@gmail.com</p><hr></hr>
                         <p><span className='fw-bold' >Age: </span>21</p><hr></hr>
                         <p className='mb-5'><span className='fw-bold' >From: </span>Sylhet, Bangladesh</p>
-                        <a href='#.' style={{border: '2px solid #20c997', color: '#2E4053'}} className='px-4 hire py-2 text-decoration-none rounded-pill fs-5 fw-bold'>Hire Me</a>
+                        <a href='https://www.linkedin.com/in/mrrubelmia/' style={{border: '2px solid #20c997', color: '#2E4053'}} className='px-4 hire py-2 text-decoration-none rounded-pill fs-5 fw-bold'>Hire Me</a>
                     </div>
                 </div> 
                 <div className='experience mt-5 text-center'>
@@ -33,16 +33,16 @@ const About = () => {
                             <p className='fs-5'>Years Experience</p>
                         </Col>
                         <Col className='border-end mb-3'>
-                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>10+</p>
-                            <p className='fs-5'>Years Experience</p>
+                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>20+</p>
+                            <p className='fs-5'>Latest Technologies</p>
                         </Col>
                         <Col className='border-end mb-3'>
                             <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>31+</p>
-                            <p className='fs-5'>Years Experience</p>
+                            <p className='fs-5'>GitHub Projects</p>
                         </Col>
                         <Col className='border-end mb-3'>
-                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>08+</p>
-                            <p className='fs-5'>Years Experience</p>
+                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>02+</p>
+                            <p className='fs-5'>Web Certifications</p>
                         </Col>
                     </Row>
                 </div>

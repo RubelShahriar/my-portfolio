@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import {faFacebookSquare, faLinkedin, faGithubSquare,faGithub, faLinkedinIn, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faLinkedinIn, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -23,9 +23,9 @@ const Header = () => {
                     <Nav.Link className='me-3 text-light link' href="#contact">Contact</Nav.Link>
                 </Nav>
                 <div style={{marginBottom: '-5px'}}>
-                    <a href='#p'><FontAwesomeIcon className='icon ms-3 text-light' title='GitHub' icon={faGithub}/></a>
-                    <a href='#p'><FontAwesomeIcon className='icon ms-3 text-light' title='LinkedIn' icon={faLinkedinIn}/></a>
-                    <a href='#p'><FontAwesomeIcon className='icon ms-3 text-light' title='Facebook' icon={faFacebook}/></a>
+                    <a href='https://github.com/RubelShahriar'><FontAwesomeIcon className='icon ms-3 text-light' title='GitHub' icon={faGithub}/></a>
+                    <a href='https://www.linkedin.com/in/mrrubelmia/'><FontAwesomeIcon className='icon ms-3 text-light' title='LinkedIn' icon={faLinkedinIn}/></a>
+                    <a href='https://www.facebook.com/afradshahriar.rubel'><FontAwesomeIcon className='icon ms-3 text-light' title='Facebook' icon={faFacebook}/></a>
                 </div>
                 </Navbar.Collapse>
             </Container>

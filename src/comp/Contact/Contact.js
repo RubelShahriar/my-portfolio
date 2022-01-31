@@ -6,7 +6,7 @@ import { faMapMarkerAlt, faEnvelope, faPhoneAlt, faPaperPlane, faAngleDoubleUp} 
 import './Contact.css';
 
 const Contact = () => {
-    const [success, setSuccess] = useState(true)
+    const [success, setSuccess] = useState(false)
     const form = useRef();
 
   const sendEmail = (e) => {

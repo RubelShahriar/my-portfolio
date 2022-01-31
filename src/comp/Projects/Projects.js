@@ -3,7 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBroadcastTower} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import carImage from '../../images/CarLeader.png'
+import carImage1 from '../../images/CarLeader.png'
+import carImage2 from '../../images/TripFinder.png'
+import carImage3 from '../../images/Education.png'
 import './Projects.css';
 
 const Projects = () => {
@@ -19,7 +21,7 @@ const Projects = () => {
                             <div className='text-center fs-5 mb-3'>CarLeader</div>
                         <div className='image position-relative'>
                             <div className='project-pic'>
-                                <img src={carImage} alt='car'></img>
+                                <img src={carImage1} alt='car'></img>
                             </div>
                             <div className='overlay'>
                                 <div className='tech'>
@@ -31,9 +33,9 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='#..'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
-                                        <a href='#..'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
-                                        <a href='#..'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
+                                        <a href='https://affectionate-meitner-d1c2c2.netlify.app'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://github.com/RubelShahriar/car-app'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
+                                        <a href='https://github.com/RubelShahriar/car-server'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +45,7 @@ const Projects = () => {
                     <div className='text-center fs-5 mb-3'>CarLeader</div>
                             <div className='image position-relative'>
                             <div className='project-pic'>
-                                <img src={carImage} alt='car'></img>
+                                <img src={carImage2} alt='car'></img>
                             </div>
                             <div className='overlay'>
                                 <div className='tech'>
@@ -55,9 +57,9 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='#.'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
-                                        <a href='#.'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
-                                        <a href='#.'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
+                                        <a href='https://zealous-bhaskara-09c56b.netlify.app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://github.com/RubelShahriar/travel-app'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
+                                        <a href='https://github.com/RubelShahriar/travel-server'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +69,7 @@ const Projects = () => {
                     <div className='text-center fs-5 mb-3'>CarLeader</div>
                             <div className='image position-relative'>
                             <div className='project-pic'>
-                                <img src={carImage} alt='car'></img>
+                                <img src={carImage3} alt='car'></img>
                             </div>
                             <div className='overlay'>
                                 <div className='tech'>
@@ -79,9 +81,9 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='#.'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
-                                        <a href='#.'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
-                                        <a href='#.'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>GitHub Code</a>
+                                        <a href='https://hopeful-williams-905a9b.netlify.app/campus'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://github.com/RubelShahriar/react-education-project'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
+                                        <a href=' '><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
                                 </div>
                             </div>
