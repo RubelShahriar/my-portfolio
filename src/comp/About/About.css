@@ -1,0 +1,42 @@
+.about .hire:hover{
+    background-color: #20c997 !important;
+    transition: .4s;
+    color: white !important;
+}
+.about .know-me::after{
+    width: 30%;
+    margin: 0 auto;
+    height: 3px;
+    background: #20c997;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+/* Responisve part css start */
+@media (min-width: 320px) and (max-width: 575px){
+    .about .know-me{
+        font-size: 30px !important;
+    }
+    .about .left h2{
+        font-size: 20px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .navigation img{
+        width: 150px;
+    }
+    .navigation .nav-item{
+        margin-right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .navigation img{
+        width: 200px;
+    }
+    .navigation .nav-item{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+}

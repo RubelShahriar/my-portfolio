@@ -1,0 +1,123 @@
+.contact .contact-after::after{
+    width: 30%;
+    margin: 0 auto;
+    height: 3px;
+    background: #20c997;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+.contact .title{
+    text-align: center;
+}
+.contact h2{
+    margin-bottom: 30px;
+}
+.contact .left .item{
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact .left .item p{
+    margin-left: 60px;
+}
+.contact .left .icon{
+    color: white;
+    background-color: #20c997;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+.contact .send{
+    background: #20c997;
+    border-color: #20c997;
+}
+.contact .send:hover{
+    background: #17A589;
+    transition: .4s;
+}
+.contact .right .input{
+    margin-bottom: 15px;
+    width: 500px;
+    height: 50px;
+    border-color: #dae1e3;
+    padding-left: 10px;
+}
+.contact .right .input1{
+    width: 500px;
+    height: 150px;
+    border-color: #dae1e3;
+}
+.contact .back-to-top{
+    background-color: #20c997;
+    border: 1px solid white;
+}
+.contact .back-to-top:hover{
+    background-color: #17A589;
+    transition: .4s;
+}
+/* Responisve part css start */
+@media (min-width: 320px) and (max-width: 575px){
+    .contact .dont{
+        font-size: 18px !important;
+        margin-bottom: 0px !important;
+    }
+    .contact .under-text{
+        margin-bottom: 30px !important;
+        font-size: 50px !important;
+    }
+    .contact .contact-after{
+        font-size: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .contact .right .input{
+        margin-bottom: 10px;
+        width: auto;
+        height: 40px;
+    }
+    .contact .right .input1{
+        width: auto;
+        height: 100px;
+    }
+    .contact .send{
+        margin-top: 10px !important;
+        transition: .2s;
+        font-size: 18px !important;
+    }
+    .contact .alert{
+        display: flex;
+        align-items: center;
+        margin-top: 10px !important;
+        margin-bottom: -50px !important;
+    }
+    .contact .left .item{
+        margin-bottom: 12px;
+    }
+    .contact .footer-bottom{
+        font-size: 14px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .contact .back-to-top{
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .contact .left .item p{
+        margin-left: 80px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .contact .right .input{
+        width: 100%;
+    }
+    .contact .right .input1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,118 @@
+.project .image .project-pic img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.project .portfolio::after{
+    width: 30%;
+    margin: 0 auto;
+    height: 3px;
+    background: #20c997;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+.project .image .overlay{
+    width: 100%;
+    height: 0%;
+    background: #48C9B0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.project .image:hover .overlay{
+    height: 100%;
+}
+.project .image .overlay .tech p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: none;
+}
+.project .image .overlay .tech ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    background: #17A589;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.project .image:hover .overlay ul li{
+    display: inline-block;
+}
+.project .image:hover .overlay .tech p{
+    display: inline-block;
+}
+.project .image .overlay .tech a .icon{
+    margin-right: 10px;
+}
+.project .image .overlay .tech a .icon1{
+    font-size: 20px;
+}
+.project .image .overlay .tech a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    display: none;
+    background: #17A589;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 16px;
+}
+.project .image .overlay .tech .website{
+    margin: 60px 0px 50px 30px;
+}
+.project .image:hover .overlay .tech a{
+    display: inline-block;
+}
+.project .image .overlay .tech button{
+    display: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    background: peru;
+    margin-left: 30px;
+    padding: 7px;
+    border-radius: 16px;
+    border: none;
+    /* border: 1px solid white; */
+}
+.project .image:hover .overlay .tech button{
+    display: inline-block;
+}
+.project .image .overlay .icon2{
+    margin-left: 8px;
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+/* Responisve part css start */
+@media (min-width: 320px) and (max-width: 575px){
+    .portfolio{
+        font-size: 30px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .navigation img{
+        width: 150px;
+    }
+    .navigation .nav-item{
+        margin-right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .navigation img{
+        width: 200px;
+    }
+    .navigation .nav-item{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+}

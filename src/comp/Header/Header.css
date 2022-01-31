@@ -1,0 +1,63 @@
+
+.header .active{
+    color: #20c997 !important;
+}
+.header .link{
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .link:hover{
+    color: gold;
+    transition: .4s;
+}
+.header .brand:hover{
+    color: white;
+}
+.header .link:hover{
+    color: gold !important;
+    transition: .4s;
+}
+.header .icon{
+    font-size: 25px;
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 !important;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.navbar-toggler-icon{
+    background: #f1f1f1;
+    border-radius: 5px;
+    color: white !important;
+}
+/* Responisve part css start */
+@media (min-width: 320px) and (max-width: 575px){
+    .navigation img{
+        width: 100px;
+    }
+    .navigation .nav-item{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .navigation img{
+        width: 150px;
+    }
+    .navigation .nav-item{
+        margin-right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .navigation img{
+        width: 200px;
+    }
+    .navigation .nav-item{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+}
