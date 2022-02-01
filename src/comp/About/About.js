@@ -15,7 +15,7 @@ const About = () => {
                 <div className='row'>
                     <div className='col-lg-8 left'>
                         <h2>I'm <span style={{color: '#20c997'}}>Rubel Mia,</span> a web developer</h2>
-                        <p>Hei i am rubel ,i am afront end developer I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the  i am working sincce 2019 i am fast learner and entu</p>
+                        <p>Hei i am rubel, i am afront end developer I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the  i am working sincce 2019 i am fast learner and entu</p>
                         <p>i am Rubel Mia. i am a junior front end developer with 2 years of working experience on multiple Projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time. i have done some junior qualities project  </p>
                     </div>
                     <div className='col-lg-4 right'>
