@@ -42,7 +42,7 @@ const Projects = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={4}>
-                    <div className='text-center fs-5 mb-3'>CarLeader</div>
+                    <div className='text-center fs-5 mb-3'>TripFinder</div>
                             <div className='image position-relative'>
                             <div className='project-pic'>
                                 <img src={carImage2} alt='car'></img>
@@ -66,7 +66,7 @@ const Projects = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={4}>
-                    <div className='text-center fs-5 mb-3'>CarLeader</div>
+                    <div className='text-center fs-5 mb-3'>Weather App</div>
                             <div className='image position-relative'>
                             <div className='project-pic'>
                                 <img src={carImage3} alt='car'></img>
