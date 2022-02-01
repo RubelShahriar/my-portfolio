@@ -33,7 +33,7 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='https://affectionate-meitner-d1c2c2.netlify.app'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://caleader-car-dealership.netlify.app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
                                         <a href='https://github.com/RubelShahriar/car-app'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
                                         <a href='https://github.com/RubelShahriar/car-server'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
@@ -57,7 +57,7 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='https://zealous-bhaskara-09c56b.netlify.app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://travel-resort-react.netlify.app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
                                         <a href='https://github.com/RubelShahriar/travel-app'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
                                         <a href='https://github.com/RubelShahriar/travel-server'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
