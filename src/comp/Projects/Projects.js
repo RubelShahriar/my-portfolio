@@ -5,7 +5,7 @@ import { faBroadcastTower} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import carImage1 from '../../images/CarLeader.png'
 import carImage2 from '../../images/TripFinder.png'
-import carImage3 from '../../images/Education.png'
+import carImage3 from '../../images/weather-app.png'
 import './Projects.css';
 
 const Projects = () => {
@@ -81,8 +81,8 @@ const Projects = () => {
                                         <li>MongoDB</li>
                                     </ul>
                                     <div className='website'>
-                                        <a href='https://hopeful-williams-905a9b.netlify.app/campus'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
-                                        <a href='https://github.com/RubelShahriar/react-education-project'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
+                                        <a href='https://rubelshahriar.github.io/weather-app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>
+                                        <a href='https://github.com/RubelShahriar/weather-app'><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Client Side Code</a>
                                         <a href=' '><FontAwesomeIcon className='icon1 icon' icon={faGithub}/>Server Side Code</a>
                                     </div>
                                 </div>
