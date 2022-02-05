@@ -62,8 +62,9 @@
     background-color: #17A589;
     transition: .4s;
 }
+
 /* Responisve part css start */
-@media (min-width: 320px) and (max-width: 575px){
+@media only screen and (max-width: 575px){
     .contact .dont{
         font-size: 18px !important;
         margin-bottom: 0px !important;
@@ -78,11 +79,11 @@
     }
     .contact .right .input{
         margin-bottom: 10px;
-        width: auto;
+        width: 90%;
         height: 40px;
     }
     .contact .right .input1{
-        width: auto;
+        width: 90%;
         height: 100px;
     }
     .contact .send{

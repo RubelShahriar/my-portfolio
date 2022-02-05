@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div className='col-lg-4 right'>
                         <p><span className='fw-bold' >Name: </span>Rubel Mia</p><hr></hr>
-                        <p><span className='fw-bold' >Email: </span>mr.miarubel@gmail.com</p><hr></hr>
+                        <p><span className='fw-bold' >Email: </span><a href='mailto:mr.miarubel@gmail.com' style={{color: '#1ABC9C', textDecoration: 'none'}}>mr.miarubel@gmail.com</a></p><hr></hr>
                         <p><span className='fw-bold' >Age: </span>21</p><hr></hr>
                         <p className='mb-5'><span className='fw-bold' >From: </span>Sylhet, Bangladesh</p>
                         <a href='https://www.linkedin.com/in/mrrubelmia/' style={{border: '2px solid #20c997', color: '#2E4053'}} className='px-4 hire py-2 text-decoration-none rounded-pill fs-5 fw-bold'>Hire Me</a>
