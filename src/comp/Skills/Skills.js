@@ -12,15 +12,15 @@ const Skills = () => {
                 </div>
                     <Row>
                         <Col sm={12} md={6} lg={6}>
-                            <p className='mt-2 fw-bold fs-5'>React <span className='float-end'>80%</span></p>
+                            <p className='mt-2 fw-bold fs-5'>React <span className='float-end'>75%</span></p>
                             <ProgressBar now={80} />
                             <p className='mt-2 fw-bold fs-5'>Javascript <span className='float-end'>85%</span></p>
                             <ProgressBar now={85} />
-                            <p className='mt-2 fw-bold fs-5'>Node Js <span className='float-end'>80%</span></p>
-                            <ProgressBar now={80} />
-                            <p className='mt-2 fw-bold fs-5'>Express Js <span className='float-end'>85%</span></p>
+                            <p className='mt-2 fw-bold fs-5'>Node Js <span className='float-end'>60%</span></p>
+                            <ProgressBar now={70} />
+                            <p className='mt-2 fw-bold fs-5'>Express Js <span className='float-end'>75%</span></p>
                             <ProgressBar now={85} />
-                            <p className='mt-2 fw-bold fs-5'>MongoDB <span className='float-end'>80%</span></p>
+                            <p className='mt-2 fw-bold fs-5'>MongoDB <span className='float-end'>70%</span></p>
                             <ProgressBar now={80} />
                             <p className='mt-2 fw-bold fs-5'>Tailwind <span className='float-end'>85%</span></p>
                             <ProgressBar now={85} />
