@@ -27,7 +27,13 @@ const Projects = () => {
                                 <div className='tech'>
                                     <p style={{color: 'white'}}>Technologies:</p>
                                     <ul>
-                                        <li>React.js</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Material UI</li>
+                                        <li>Javascript</li>
+                                        <li>Rest APIs</li>
+                                        <li>React js</li>
+                                        <li>Firebase</li>
                                         <li>Node.js</li>
                                         <li>Express.js</li>
                                         <li>MongoDB</li>
@@ -51,7 +57,13 @@ const Projects = () => {
                                 <div className='tech'>
                                     <p style={{color: 'white'}}>Technologies:</p>
                                     <ul>
-                                        <li>React.js</li>
+                                    <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Material UI</li>
+                                        <li>Javascript</li>
+                                        <li>Rest APIs</li>
+                                        <li>React js</li>
+                                        <li>Firebase</li>
                                         <li>Node.js</li>
                                         <li>Express.js</li>
                                         <li>MongoDB</li>
@@ -75,10 +87,11 @@ const Projects = () => {
                                 <div className='tech'>
                                     <p style={{color: 'white'}}>Technologies:</p>
                                     <ul>
-                                        <li>React.js</li>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>MongoDB</li>
+                                    <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Material UI</li>
+                                        <li>Javascript</li>
+                                        <li>Open Weather APIs</li>
                                     </ul>
                                     <div className='website'>
                                         <a href='https://rubelshahriar.github.io/weather-app/'><FontAwesomeIcon className='icon' icon={faBroadcastTower}/>Live Website</a>

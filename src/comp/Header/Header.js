@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => { 
     return (
-        <Navbar className='header py-1 smooth-scroll mx-1' style={{background: '#154360', borderRadius: '30px'}} expand="lg" fixed='top'>
+        <Navbar className='header py-1 smooth-scroll mx-1' expand="lg" fixed='top'>
             <Container>
                 <Navbar.Brand href="#home" className='logo fw-bold'>R<span className='letter1'>U</span><span className='letter2'>B</span><span className='letter3'>E</span><span className='letter4'>L</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls=""><FontAwesomeIcon className='text-light' icon={faBars}/></Navbar.Toggle>

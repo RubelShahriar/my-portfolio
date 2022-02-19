@@ -1,3 +1,7 @@
+.header{
+    border-radius: 30px;
+    background: #154360;
+}
 .header .active{
     color: #20c997 !important;
 }
@@ -44,6 +48,9 @@
 }
 /* Responisve part css start */
 @media (min-width: 320px) and (max-width: 575px){
+    .header{
+        border-radius: 10px;
+    }
     .navigation img{
         width: 100px;
     }
