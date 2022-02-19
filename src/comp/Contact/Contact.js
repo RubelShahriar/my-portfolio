@@ -32,7 +32,7 @@ const Contact = () => {
                 <Row>
                     <Col sm={12} md={5} lg={4}>
                         <div className=''>
-                            <p className='fs-4 fw-bold dont mb-3'>DON'T BE SHY!</p>
+                            <p className='fs-4 fw-bold dont mb-3'>IF INTERESTED!</p>
                             <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                         </div>
                         <div className='left'>

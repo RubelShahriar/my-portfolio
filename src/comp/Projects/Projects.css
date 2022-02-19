@@ -66,6 +66,7 @@
     margin-bottom: 10px;
     padding: 7px;
     border-radius: 16px;
+    border: 1px solid #f1f1f1;
 }
 .project .image .overlay .tech .website{
     margin: 60px 0px 50px 30px;
@@ -73,7 +74,7 @@
 .project .image:hover .overlay .tech a{
     display: inline-block;
 }
-.project .image .overlay .tech button{
+/* .project .image .overlay .tech button{
     display: none;
     color: white;
     font-size: 18px;
@@ -83,8 +84,8 @@
     padding: 7px;
     border-radius: 16px;
     border: none;
-    /* border: 1px solid white; */
-}
+    border: 1px solid white;
+} */
 .project .image:hover .overlay .tech button{
     display: inline-block;
 }

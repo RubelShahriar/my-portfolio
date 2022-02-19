@@ -1,23 +1,46 @@
 .header .active{
     color: #20c997 !important;
 }
+/* orbotron, montserrat alternates, gruppo */
+.header .logo{
+    font-family: 'Lobster Two', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.header .logo:hover{
+    opacity: .7;
+    transition: .4s;
+}
+.header .logo::first-letter{
+    color:goldenrod;
+}
+.header .letter1{
+    color: red;
+}
+.header .letter2{
+    color: #20c997;
+}
+.header .letter3{
+    color: yellow;
+}
+.header .letter4{
+    color: peru;
+}
 .header .link{
     font-size: 18px;
     font-weight: 500;
 }
 .header .link:hover{
-    color: gold;
-    transition: .4s;
-}
-.header .brand:hover{
-    color: white;
-}
-.header .link:hover{
-    color: gold !important;
+    color: #20c997 !important;
     transition: .4s;
 }
 .header .icon{
     font-size: 25px;
+}
+.header .icon:hover{
+    color: gray !important;
+    transition: .4s;
 }
 /* Responisve part css start */
 @media (min-width: 320px) and (max-width: 575px){
