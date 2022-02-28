@@ -5,7 +5,7 @@
     background: var(--fixed-color);
 }
 .header .active{
-    color: var(--fixed-color) !important;
+    color: #117864 !important;
 }
 .header .logo{
     font-family: 'Lobster Two', cursive;
@@ -14,7 +14,7 @@
     letter-spacing: 2px;
 }
 .header .logo:hover{
-    color: gray;
+    opacity: .7;
     transition: .4s;
 }
 .header .logo::first-letter{
@@ -37,7 +37,7 @@
     font-weight: 500;
 }
 .header .link:hover{
-    opacity: .8;
+    color: #117864 !important;
     transition: .4s;
 }
 .header .icon{

@@ -35,7 +35,7 @@ const Banner = () => {
                                 </span> 
                             </h5>
                             <p className='mt-2 fs-5' >Creative Frontend Developer</p>
-                            <p className='fs-6 my-info'>In my free time I studied these materials and tried to apply their knowledge in practice. Later, my friends-programmers explained to me that the thing I was doing Every day I learn something new and improve myself. For this reason, I quit my previous profession and decided to devote myself to programming. I am a Frontend Web Developer,  process, from discussion and collaboration.</p>
+                            <p className='fs-6 my-info'>Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end web developer with 2 years of  experience with real world projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time. i am capable to build up any Frontend project with latest technologies and frameworks.</p>
                             <div>
                                 <Button className='py-2 px-3 resume rounded-pill'>
                                     <a href='https://drive.google.com/uc?id=12KPn01h_ogWis6MIEQBo-WlryqPPrAxX&export=download' style={{color: 'white'}} className='fs-6 fw-bold text-decoration-none '>Download Resume <FontAwesomeIcon className='icon d-icon ms-2 fa-twitter' style={{color: 'white'}} icon={faDownload}/></a>

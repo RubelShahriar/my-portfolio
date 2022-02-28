@@ -15,8 +15,8 @@ const About = () => {
                 <div className='row'>
                     <div className='col-lg-8 left'>
                         <h2>I'm <span className='span'>Rubel Mia,</span> a web developer</h2>
-                        <p>Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end web developer with 2 years of  experience with real world projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time.  </p>
                         <p>For me, Programming is an intersting thing. i enjoy it while i work on. As a web developer focused on customer satisfaction, I manage all aspects of web development from concept to requirements definition, design, development, launch, maintenance, and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables. I am very passionate and dadicated to my work. </p>
+                        <p>In my free time I studied these materials and tried to apply their knowledge in practice. Later, my friends-programmers explained to me that the thing I was doing Every day I learn something new and improve myself. For this reason, I quit my previous profession and decided to devote myself to programming. I am a Frontend Web Developer,  process, from discussion and collaboration.</p>
                     </div>
                     <div className='col-lg-4 right'>
                         <p><span className='fw-bold' >Name: </span>Rubel Mia</p><hr></hr>

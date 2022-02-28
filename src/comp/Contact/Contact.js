@@ -74,7 +74,7 @@ const Contact = () => {
             <div className=''>
                 <nav style={{background: '#154360', marginTop: '80px', position: 'relative'}} className='footer-bottom py-2'>
                     <Container className='footer-nav'>
-                        <p className='footer-bottom text-light mb-0'>Copyright &copy;{new Date().getFullYear()} RUBEL MIA. All Rights Reserved</p>
+                        <p className='footer-bottom text-light mb-0'>Copyright &copy;{new Date().getFullYear()} RUBEL MIA</p>
                         <a href='#home' style={{bottom: '20px', left: '50%', transform: 'translateX(-50%)'}} className=' position-absolute back-to-top px-3 py-2 fs-4 fw-bold text-light'><FontAwesomeIcon icon={faAngleDoubleUp}/></a>
                     </Container>
                 </nav>
