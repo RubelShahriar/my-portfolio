@@ -39,7 +39,7 @@
     border-color: var(--fixed-color);
 }
 .contact .send:hover{
-    background: var(--fixed-color);
+    opacity: 0.8;
     transition: .4s;
 }
 .contact .right .input{
@@ -59,7 +59,7 @@
     border: 1px solid white;
 }
 .contact .back-to-top:hover{
-    background-color: #17A589;
+    opacity: .9;
     transition: .4s;
 }
 

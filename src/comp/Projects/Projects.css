@@ -37,7 +37,7 @@
     display: inline-block;
     margin-right: 10px;
     font-size: 18px;
-    background: #17A589;
+    background: var(--tech-color);
     padding: 5px;
     border-radius: 10px;
     display: none;
@@ -62,7 +62,7 @@
     font-size: 18px;
     margin-right: 10px;
     display: none;
-    background: #17A589;
+    background: var(--tech-color);
     margin-bottom: 10px;
     padding: 7px;
     border-radius: 16px;

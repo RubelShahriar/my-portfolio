@@ -30,7 +30,7 @@ const About = () => {
                     <Row>
                         <Col className='border-end mb-3'>
                             <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>02+</p>
-                            <p className='fs-5'>Years Project experience</p>
+                            <p className='fs-5'>Years Working with Projects</p>
                         </Col>
                         <Col className='border-end mb-3'>
                             <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>20+</p>

@@ -7,7 +7,6 @@
 .header .active{
     color: var(--fixed-color) !important;
 }
-/* orbotron, montserrat alternates, gruppo */
 .header .logo{
     font-family: 'Lobster Two', cursive;
     font-size: 28px;
@@ -15,7 +14,7 @@
     letter-spacing: 2px;
 }
 .header .logo:hover{
-    opacity: .7;
+    color: gray;
     transition: .4s;
 }
 .header .logo::first-letter{
@@ -38,7 +37,7 @@
     font-weight: 500;
 }
 .header .link:hover{
-    color: var(--fixed-color) !important;
+    opacity: .8;
     transition: .4s;
 }
 .header .icon{

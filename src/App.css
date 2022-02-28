@@ -6,5 +6,6 @@
   font-family: 'Poppins', sans-serif;
 }
 :root{
-  --fixed-color: crimson;
+  --fixed-color: #1ABC9C;
+  --tech-color: #17A589;
 }
