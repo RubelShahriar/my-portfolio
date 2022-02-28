@@ -19,9 +19,9 @@ const Banner = () => {
                     <div className='info'>
                         <div className='left'>
                             <p className='mt fs-4'>Hey there!</p>
-                            <h5 className='inner-text' style={{ margin: 'auto 0', fontWeight: '600', color: '#2E4053' }}>
+                            <h5 className='inner-text'>
                                 {' I\'m '}
-                                <span className='inner-text' style={{color: '#2E4053',  fontWeight: '600' }}>
+                                <span className='inner-text'>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
                                     words={['Rubel Mia', 'a React Developer', 'a Front-end Developer', 'a Mern Stack Developer']}

@@ -2,13 +2,13 @@
     height: 10px;
 }
 .progress-bar{
-    background-color: #20c997;
+    background-color: var(--fixed-color);
 }
 .skills .skill-after::after{
     width: 30%;
     margin: 0 auto;
     height: 3px;
-    background: #20c997;
+    background: var(--fixed-color);
     position: absolute;
     bottom: -8px;
     left: 50%;

@@ -14,30 +14,30 @@ const About = () => {
                 {/* about text middle */}
                 <div className='row'>
                     <div className='col-lg-8 left'>
-                        <h2>I'm <span style={{color: '#20c997'}}>Rubel Mia,</span> a web developer</h2>
-                        <p>Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end web developer with 2 years of experience with real world projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time.  </p>
+                        <h2>I'm <span className='span'>Rubel Mia,</span> a web developer</h2>
+                        <p>Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end web developer with 2 years of  experience with real world projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time.  </p>
                         <p>For me, Programming is an intersting thing. i enjoy it while i work on. As a web developer focused on customer satisfaction, I manage all aspects of web development from concept to requirements definition, design, development, launch, maintenance, and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables. I am very passionate and dadicated to my work. </p>
                     </div>
                     <div className='col-lg-4 right'>
                         <p><span className='fw-bold' >Name: </span>Rubel Mia</p><hr></hr>
-                        <p><span className='fw-bold' >Email: </span><a href='mailto:mr.miarubel@gmail.com' style={{color: '#1ABC9C', textDecoration: 'none'}}>mr.miarubel@gmail.com</a></p><hr></hr>
+                        <p><span className='fw-bold' >Email: </span><a href='mailto:mr.miarubel@gmail.com' className='email'>mr.miarubel@gmail.com</a></p><hr></hr>
                         <p><span className='fw-bold' >Age: </span>21</p><hr></hr>
                         <p className='mb-5'><span className='fw-bold' >From: </span>Sylhet, Bangladesh</p>
-                        <a href='https://www.linkedin.com/in/mrrubelmia/' style={{border: '2px solid #20c997', color: '#2E4053'}} className='px-4 hire py-2 text-decoration-none rounded-pill fs-5 fw-bold'>Hire Me</a>
+                        <a href='https://www.linkedin.com/in/mrrubelmia/' className='px-4 hire py-2 text-decoration-none rounded-pill fs-5 fw-bold'>Hire Me</a>
                     </div>
                 </div> 
                 <div className='experience mt-5 text-center'>
                     <Row>
                         <Col className='border-end mb-3'>
                             <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>02+</p>
-                            <p className='fs-5'>Years Experience</p>
+                            <p className='fs-5'>Years Project experience</p>
                         </Col>
                         <Col className='border-end mb-3'>
                             <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>20+</p>
                             <p className='fs-5'>Latest Technologies</p>
                         </Col>
                         <Col className='border-end mb-3'>
-                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>31+</p>
+                            <p style={{fontSize: '50px', color:'#6c757d'}} className='mb-0 fw-bold'>21+</p>
                             <p className='fs-5'>GitHub Projects</p>
                         </Col>
                         <Col className='border-end mb-3'>

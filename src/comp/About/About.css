@@ -1,5 +1,9 @@
+.about .hire{
+    border: 2px solid var(--fixed-color);
+    color: black;
+}
 .about .hire:hover{
-    background-color: #20c997 !important;
+    background-color: var(--fixed-color) !important;
     transition: .4s;
     color: white !important;
 }
@@ -7,12 +11,19 @@
     width: 30%;
     margin: 0 auto;
     height: 3px;
-    background: #20c997;
+    background: var(--fixed-color);
     position: absolute;
     bottom: -8px;
     left: 50%;
     transform: translateX(-50%);
     content: "";
+}
+.about .span{
+    color: var(--fixed-color);
+}
+.about .email{
+    text-decoration: none;
+    color: var(--fixed-color);
 }
 /* Responisve part css start */
 @media (min-width: 320px) and (max-width: 575px){

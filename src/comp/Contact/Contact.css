@@ -2,7 +2,7 @@
     width: 30%;
     margin: 0 auto;
     height: 3px;
-    background: #20c997;
+    background: var(--fixed-color);
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -24,7 +24,7 @@
 }
 .contact .left .icon{
     color: white;
-    background-color: #20c997;
+    background-color: var(--fixed-color);
     border-radius: 5px;
     width: 45px;
     height: 45px;
@@ -35,11 +35,11 @@
     transform: translate(-50%, -50%);
 }
 .contact .send{
-    background: #20c997;
-    border-color: #20c997;
+    background: var(--fixed-color);
+    border-color: var(--fixed-color);
 }
 .contact .send:hover{
-    background: #17A589;
+    background: var(--fixed-color);
     transition: .4s;
 }
 .contact .right .input{
@@ -55,7 +55,7 @@
     border-color: #dae1e3;
 }
 .contact .back-to-top{
-    background-color: #20c997;
+    background-color: var(--fixed-color);
     border: 1px solid white;
 }
 .contact .back-to-top:hover{

@@ -1,9 +1,11 @@
+
 .header{
-    border-radius: 30px;
-    background: #154360;
+    /* border-radius: 30px; */
+    /* background: #154360; */
+    background: var(--fixed-color);
 }
 .header .active{
-    color: #20c997 !important;
+    color: var(--fixed-color) !important;
 }
 /* orbotron, montserrat alternates, gruppo */
 .header .logo{
@@ -23,7 +25,7 @@
     color: red;
 }
 .header .letter2{
-    color: #20c997;
+    color: #154360;
 }
 .header .letter3{
     color: yellow;
@@ -36,7 +38,7 @@
     font-weight: 500;
 }
 .header .link:hover{
-    color: #20c997 !important;
+    color: var(--fixed-color) !important;
     transition: .4s;
 }
 .header .icon{

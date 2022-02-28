@@ -9,7 +9,9 @@
     align-items: center;
 }
 .banner .inner-text{
+    color: #2E4053;
     font-size: calc(1.5rem + .5vw);
+    font-weight: 600;
 }
 .banner .my-info{
     width: 60%;
@@ -27,11 +29,11 @@
 }
 .banner .left .resume{
     border-radius: 15px;
-    border: 1px solid #1ABC9C;
-    background: #1ABC9C ;
+    border: 1px solid var(--fixed-color);
+    background: var(--fixed-color);
 }
 .banner .left .resume:hover{
-    background: #17A589;
+    opacity: .8;
     transition: .4s;
 }
 .ani{
