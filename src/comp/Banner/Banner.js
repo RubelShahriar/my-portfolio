@@ -38,9 +38,8 @@ const Banner = () => {
                             <p className='fs-6 my-info'>Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end web developer with 2 years of  experience with real world projects. Recently i am working on React Node Express, and MongoDB. i am interested to learn new technologies every time. i am capable to build up any Frontend project with latest technologies and frameworks.</p>
                             <div>
                                 <Button className='py-2 px-3 resume rounded-pill'>
-                                    <a href='https://drive.google.com/uc?id=12KPn01h_ogWis6MIEQBo-WlryqPPrAxX&export=download' style={{color: 'white'}} className='fs-6 fw-bold text-decoration-none '>Download Resume <FontAwesomeIcon className='icon d-icon ms-2 fa-twitter' style={{color: 'white'}} icon={faDownload}/></a>
-                                </Button>
-                            </div>
+                                    <a href='https://drive.google.com/uc?id=1JcObKFM3XgxWBLpf2GgT7n08AGmg5OzP&export=download' style={{color: 'white'}} className='fs-6 fw-bold text-decoration-none '>Download Resume <FontAwesomeIcon className='icon d-icon ms-2 fa-twitter' style={{color: 'white'}} icon={faDownload}/></a>
+                                </Button></div>
                             <div className='ani'>
                                 <a href='#about' className='div fs-5'>
                                     <FontAwesomeIcon style={{color: 'black'}} className=' smooth-scroll' icon={faChevronDown}/>
