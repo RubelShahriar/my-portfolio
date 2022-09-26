@@ -23,29 +23,29 @@ const Skills = () => {
         <Row>
           <Col sm={12} md={6} lg={6}>
             <p className="mt-2 fw-bold fs-5">
-              React <span className="float-end">75%</span>
+              React <span className="float-end">85%</span>
             </p>
-            <ProgressBar now={75} />
+            <ProgressBar now={85} />
             <p className="mt-2 fw-bold fs-5">
-              Javascript <span className="float-end">80%</span>
+              Javascript <span className="float-end">90%</span>
+            </p>
+            <ProgressBar now={90} />
+            <p className="mt-2 fw-bold fs-5">
+              Node Js <span className="float-end">80%</span>
             </p>
             <ProgressBar now={80} />
             <p className="mt-2 fw-bold fs-5">
-              Node Js <span className="float-end">70%</span>
-            </p>
-            <ProgressBar now={70} />
-            <p className="mt-2 fw-bold fs-5">
-              MongoDB <span className="float-end">75%</span>
-            </p>
-            <ProgressBar now={75} />
-            <p className="mt-2 fw-bold fs-5">
-              Experss Js <span className="float-end">70%</span>
-            </p>
-            <ProgressBar now={70} />
-            <p className="mt-2 fw-bold fs-5">
-              Tailwind <span className="float-end">85%</span>
+              MongoDB <span className="float-end">85%</span>
             </p>
             <ProgressBar now={85} />
+            <p className="mt-2 fw-bold fs-5">
+              Experss Js <span className="float-end">85%</span>
+            </p>
+            <ProgressBar now={85} />
+            <p className="mt-2 fw-bold fs-5">
+              Tailwind CSS<span className="float-end">90%</span>
+            </p>
+            <ProgressBar now={90} />
           </Col>
           <Col sm={12} md={6} lg={6}>
             <p className="mt-2 fw-bold fs-5">
@@ -57,9 +57,9 @@ const Skills = () => {
             </p>
             <ProgressBar now={90} />
             <p className="mt-2 fw-bold fs-5">
-              API <span className="float-end">80%</span>
+              API <span className="float-end">85%</span>
             </p>
-            <ProgressBar now={80} />
+            <ProgressBar now={85} />
             <p className="mt-2 fw-bold fs-5">
               JSON <span className="float-end">85%</span>
             </p>
@@ -69,9 +69,9 @@ const Skills = () => {
             </p>
             <ProgressBar now={90} />
             <p className="mt-2 fw-bold fs-5">
-              CSS3 <span className="float-end">85%</span>
+              CSS3 <span className="float-end">90%</span>
             </p>
-            <ProgressBar now={85} />
+            <ProgressBar now={90} />
           </Col>
         </Row>
       </Container>
