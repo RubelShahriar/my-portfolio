@@ -42,11 +42,11 @@ const Banner = () => {
             <p className="mt-2 fs-5">Creative Frontend Developer</p>
             <p className="fs-6 my-info">
               Hey! Welcoming you to my portfolio. i am Rubel Mia, a front-end
-              web developer with 2 years of experience with real world projects.
-              Recently i am working on React Node Express, and MongoDB. i am
-              interested to learn new technologies every time. i am capable to
-              build up any Frontend project with latest technologies and
-              frameworks.
+              web developer with 1+ years of experience with real world
+              projects. Recently i am working on React Node Express, and
+              MongoDB. i am interested to learn new technologies every time. i
+              am capable to build up any Frontend project with latest
+              technologies and frameworks.
             </p>
             <div>
               <Button className="py-2 px-3 resume rounded-pill">
