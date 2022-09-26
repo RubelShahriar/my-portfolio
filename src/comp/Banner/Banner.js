@@ -18,7 +18,7 @@ const Banner = () => {
         </div>
         <div className="info">
           <div className="left">
-            <p className="mt fs-4">Hey there!</p>
+            <p className="mt fs-4 hey">Hey there!👋</p>
             <h5 className="inner-text">
               {" I'm "}
               <span className="inner-text">

@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import {
   faGithub,
   faLinkedinIn,
-  faFacebook,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -59,11 +59,11 @@ const Header = () => {
                 icon={faLinkedinIn}
               />
             </a>
-            <a href="https://www.facebook.com/afradshahriar.rubel">
+            <a href="https://www.instagram.com/mdrubelshahriar/">
               <FontAwesomeIcon
                 className="icon ms-3 text-light"
-                title="Facebook"
-                icon={faFacebook}
+                title="Instagram"
+                icon={faInstagram}
               />
             </a>
           </div>

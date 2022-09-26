@@ -1,138 +1,147 @@
-.banner{
-    background: url("../../images/banner-13.png") no-repeat center;
-    background-size: cover;
-    position: relative;
+.banner {
+  background: url("../../images/banner-13.png") no-repeat center;
+  background-size: cover;
+  position: relative;
 }
-.banner .info{
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.banner .info {
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.banner .inner-text{
-    color: #2E4053;
-    font-size: calc(1.5rem + .5vw);
-    font-weight: 600;
+.banner .inner-text {
+  color: #2e4053;
+  font-size: calc(1.5rem + 0.5vw);
+  font-weight: 600;
 }
-.banner .my-info{
-    width: 60%;
+.banner .my-info {
+  width: 60%;
 }
 /* .banner .tsparticles-canvas-el{
     position: absolute !important;
     z-index: -9 !important;
 } */
-.banner .profile{
-    display: none;
+.banner .profile {
+  display: none;
 }
-.banner .left p{
-    margin: 30px 0;
-    font-size: 20px;
+.banner .left p {
+  margin: 30px 0;
+  font-size: 20px;
 }
-.banner .left .resume{
-    border-radius: 15px;
-    border: 1px solid var(--fixed-color);
-    background: var(--fixed-color);
+.banner .left .resume {
+  border-radius: 15px;
+  border: 1px solid var(--fixed-color);
+  background: var(--fixed-color);
 }
-.banner .left .resume:hover{
-    opacity: .8;
-    transition: .4s;
+.banner .left .resume:hover {
+  opacity: 0.8;
+  transition: 0.4s;
 }
-.ani{
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    bottom: 40px;
+.ani {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
 }
 .div {
-    position: relative;
-    animation: mymove 1.5s infinite;
-  }
-  
-  @keyframes mymove {
-    from {top: 0px; opacity: 0;}
-    to {top: 32px; opacity: 1;}
-  }
-  
+  position: relative;
+  animation: mymove 1.5s infinite;
+}
 
-  /* Responisve part css start */
-@media (min-width: 320px) and (max-width: 575px){
-    .banner{
-        background: #f1f1f1;
-    }
-    .banner .info{
-        display: block;
-        height: auto;
-        padding-bottom: 80px;
-    }
-    .banner .inner-text{
-        font-size: calc(1.2rem + .5vw);
-    }
-    .banner .my-info{
-        width: 100%;
-        font-size: 16px !important;
-    }
-    /* .banner .left .mt{
+@keyframes mymove {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 32px;
+    opacity: 1;
+  }
+}
+
+/* Responisve part css start */
+@media (min-width: 320px) and (max-width: 575px) {
+  .banner {
+    background: #f1f1f1;
+  }
+  .banner .left .hey {
+    margin: 30px 0;
+    margin-bottom: 16px;
+  }
+  .banner .info {
+    display: block;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .banner .inner-text {
+    font-size: calc(1.2rem + 0.5vw);
+  }
+  .banner .my-info {
+    width: 100%;
+    font-size: 16px !important;
+  }
+  /* .banner .left .mt{
         margin-top: 60px !important;
         margin-bottom: 0;
     } */
-    .banner .profile{
-        display: block;
-        padding-top: 80px;
-    }
-    .banner .image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .banner .image img{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        border: 10px solid white;
-        box-shadow: 1px 1px 10px black;
-    }
+  .banner .profile {
+    display: block;
+    padding-top: 80px;
+  }
+  .banner .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 1px 1px 10px black;
+  }
 }
-@media (min-width: 576px) and (max-width: 767px){
-    .banner{
-        background: #f1f1f1;
-    }
-    .banner .inner-text{
-        font-size: calc(1.2rem + .5vw);
-    }
-    .banner .my-info{
-        width: 100%;
-        font-size: 16px !important;
-    }
-    /* .banner .left .mt{
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner {
+    background: #f1f1f1;
+  }
+  .banner .inner-text {
+    font-size: calc(1.2rem + 0.5vw);
+  }
+  .banner .my-info {
+    width: 100%;
+    font-size: 16px !important;
+  }
+  /* .banner .left .mt{
         margin-top: 60px !important;
         margin-bottom: 0;
     } */
-    .banner .profile{
-        display: block;
-    }
-    .banner .image{
-        border: 1px solid purple;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 400px;
-        margin-top: 100px;
-    }
-    .banner .right .image img{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        border: 10px solid white;
-        box-shadow: 1px 1px 10px black;
-    }
+  .banner .profile {
+    display: block;
+  }
+  .banner .image {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 100px;
+  }
+  .banner .right .image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 1px 1px 10px black;
+  }
 }
-@media (min-width: 768px) and (max-width: 991px){
-    .navigation img{
-        width: 200px;
-    }
-    .navigation .nav-item{
-        font-size: 16px;
-        margin-right: 20px;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigation img {
+    width: 200px;
+  }
+  .navigation .nav-item {
+    font-size: 16px;
+    margin-right: 20px;
+  }
 }
 
 /* <div className='particle'>

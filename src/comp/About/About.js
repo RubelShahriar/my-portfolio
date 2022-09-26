@@ -79,9 +79,9 @@ const About = () => {
                 style={{ fontSize: "50px", color: "#6c757d" }}
                 className="mb-0 fw-bold"
               >
-                02+
+                01+
               </p>
-              <p className="fs-5">Years Working with Projects</p>
+              <p className="fs-5">Years of Experience</p>
             </Col>
             <Col className="border-end mb-3">
               <p
