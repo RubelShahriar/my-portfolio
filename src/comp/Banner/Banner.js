@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 // import Particles from "react-tsparticles";
 import { faDownload, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import rubel from "../../images/rubel-square.png";
+import rubelImage from "../../images/rubel-mia.jpg";
 import "./Banner.css";
 
 const Banner = () => {
@@ -13,7 +13,7 @@ const Banner = () => {
       <Container>
         <div className="profile">
           <div className="image">
-            <img src={rubel} alt="rubel"></img>
+            <img src={rubelImage} alt="rubel"></img>
           </div>
         </div>
         <div className="info">
