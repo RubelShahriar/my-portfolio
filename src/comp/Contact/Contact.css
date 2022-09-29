@@ -1,124 +1,126 @@
-.contact .contact-after::after{
-    width: 30%;
-    margin: 0 auto;
-    height: 3px;
-    background: var(--fixed-color);
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    content: "";
+.contact .contact-after::after {
+  width: 30%;
+  margin: 0 auto;
+  height: 3px;
+  background: var(--fixed-color);
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
 }
-.contact .title{
-    text-align: center;
+.contact .title {
+  text-align: center;
 }
-.contact h2{
-    margin-bottom: 30px;
+.contact h2 {
+  margin-bottom: 30px;
 }
-.contact .left .item{
-    position: relative;
-    margin-bottom: 20px;
+.contact .left .item {
+  position: relative;
+  margin-bottom: 20px;
 }
-.contact .left .item p{
-    margin-left: 60px;
+.contact .left .item p {
+  margin-left: 60px;
 }
-.contact .left .icon{
-    color: white;
-    background-color: var(--fixed-color);
-    border-radius: 5px;
-    width: 45px;
-    height: 45px;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translate(-50%, -50%);
+.contact .left .icon {
+  color: white;
+  background-color: var(--fixed-color);
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-50%, -50%);
 }
-.contact .send{
-    background: var(--fixed-color);
-    border-color: var(--fixed-color);
+.contact .send {
+  background: var(--fixed-color);
+  border-color: var(--fixed-color);
 }
-.contact .send:hover{
-    opacity: 0.8;
-    transition: .4s;
+.contact .send:hover {
+  opacity: 0.8;
+  transition: 0.4s;
 }
-.contact .right .input{
-    margin-bottom: 15px;
-    width: 500px;
-    height: 50px;
-    border-color: #dae1e3;
-    padding-left: 10px;
+.contact .right .input {
+  margin-bottom: 15px;
+  width: 500px;
+  height: 50px;
+  border-color: #dae1e3;
+  padding-left: 10px;
 }
-.contact .right .input1{
-    width: 500px;
-    height: 150px;
-    border-color: #dae1e3;
+.contact .right .input1 {
+  width: 500px;
+  height: 150px;
+  border-color: #dae1e3;
 }
-.contact .back-to-top{
-    background-color: var(--fixed-color);
-    border: 1px solid white;
+.contact .back-to-top {
+  background-color: var(--fixed-color);
+  border: 1px solid white;
 }
-.contact .back-to-top:hover{
-    opacity: .9;
-    transition: .4s;
+.contact .back-to-top:hover {
+  opacity: 0.9;
+  transition: 0.4s;
 }
 
 /* Responisve part css start */
-@media only screen and (max-width: 575px){
-    .contact .dont{
-        font-size: 18px !important;
-        margin-bottom: 0px !important;
-    }
-    .contact .under-text{
-        margin-bottom: 30px !important;
-        font-size: 50px !important;
-    }
-    .contact .contact-after{
-        font-size: 30px !important;
-        margin-bottom: 30px !important;
-    }
-    .contact .right .input{
-        margin-bottom: 10px;
-        width: 90%;
-        height: 40px;
-    }
-    .contact .right .input1{
-        width: 90%;
-        height: 100px;
-    }
-    .contact .send{
-        margin-top: 10px !important;
-        transition: .2s;
-        font-size: 18px !important;
-    }
-    .contact .alert{
-        display: flex;
-        align-items: center;
-        margin-top: 10px !important;
-        margin-bottom: -50px !important;
-    }
-    .contact .left .item{
-        margin-bottom: 12px;
-    }
-    .contact .footer-bottom{
-        font-size: 14px !important;
-        display: flex;
-        justify-content: center;
-    }
-    .contact .back-to-top{
-        display: none;
-    }
+@media only screen and (max-width: 575px) {
+  .contact .dont {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+  }
+  .contact .under-text {
+    margin-bottom: 30px !important;
+    font-size: 50px !important;
+  }
+  .contact .contact-after {
+    font-size: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .contact .right .input {
+    margin-bottom: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .contact .right .input1 {
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .contact .send {
+    margin-top: 10px !important;
+    transition: 0.2s;
+    font-size: 18px !important;
+  }
+  .contact .alert {
+    display: flex;
+    align-items: center;
+    margin-top: 10px !important;
+    margin-bottom: -50px !important;
+  }
+  .contact .left .item {
+    margin-bottom: 12px;
+  }
+  .contact .footer-bottom {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .contact .back-to-top {
+    display: none;
+  }
 }
-@media (min-width: 576px) and (max-width: 767px){
-    .contact .left .item p{
-        margin-left: 80px;
-    }
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact .left .item p {
+    margin-left: 80px;
+  }
 }
-@media (min-width: 768px) and (max-width: 991px){
-    .contact .right .input{
-        width: 100%;
-    }
-    .contact .right .input1{
-        width: 100%;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact .right .input {
+    width: 100%;
+  }
+  .contact .right .input1 {
+    width: 100%;
+  }
 }
