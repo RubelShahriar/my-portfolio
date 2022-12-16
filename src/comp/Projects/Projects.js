@@ -49,7 +49,7 @@ const Projects = () => {
                     <li>MongoDB</li>
                   </ul>
                   <div className="website">
-                    <a href="https://caleader-car-dealership.netlify.app/">
+                    <a href="https://autosaleszone.netlify.app">
                       <FontAwesomeIcon
                         className="icon"
                         icon={faBroadcastTower}

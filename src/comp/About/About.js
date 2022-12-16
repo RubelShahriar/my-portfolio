@@ -58,7 +58,7 @@ const About = () => {
             </p>
             <hr></hr>
             <p>
-              <span className="fw-bold">Age: </span>21
+              <span className="fw-bold">Age: </span>22
             </p>
             <hr></hr>
             <p className="mb-5">
